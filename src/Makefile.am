@@ -47,7 +47,7 @@ EXTRA_LIBRARIES = \
   libbitcoin_common.a \
   univalue/libbitcoin_univalue.a \
   libbitcoin_server.a \
-  $ (LIBBITCOIN_ZMQ) \
+  libbitcoin_zmq.a \
   libbitcoin_cli.a
 if ENABLE_WALLET
 BITCOIN_INCLUDES += $(BDB_CPPFLAGS)
